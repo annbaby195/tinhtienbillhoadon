@@ -2,9 +2,9 @@ import os
 from datetime import datetime
 import pandas as pd
 import streamlit as st
+st.image("IMG_2906.jpeg")
 st.set_page_config(page_title="Order Nhà Hàng", layout="wide")
- 
-# Đường dẫn file dữ liệu dùng chung trên máy chủ
+ # Đường dẫn file dữ liệu dùng chung trên máy chủ
 CSV_FILE = "history.csv"
  
 # Thực đơn cố định của nhà hàng Mr. Bình
